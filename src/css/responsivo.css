@@ -1,0 +1,57 @@
+@media(max-width: 1200px){
+    body{
+    background-color: #000000;
+    }
+    .container{
+        flex-wrap: wrap;
+        justify-content: center;
+        height: auto;
+        gap: 30px;
+    }
+    .container .emfermagem{
+        max-width: 50%;
+    }
+    .container .informações{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .container .descrição{
+        color: #a8adb7;
+        text-align: center;
+    }
+
+    .container .botões{
+        text-align: center;
+        display: block;
+        height: 100%;
+        padding: 7px;
+    }
+    
+    .video-fundo{
+        max-width:50%
+    }
+    
+}
+@media(max-width: 500px) {
+    .cabeçalho{
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    .container .imagem-título{
+        max-width: 60%;
+    }
+    .video-fundo{
+        max-width:50%
+    }
+    .container .botões{
+        text-align: center;
+        display: block;
+        height: 100%;
+        padding: 7px;
+    }
+
+}
